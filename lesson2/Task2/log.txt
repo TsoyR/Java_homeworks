@@ -1,0 +1,18 @@
+дек. 21, 2022 9:52:53 AM lesson2.Task2.Sort main
+INFO: [4, 9, 6, 2, 1]
+дек. 21, 2022 9:52:53 AM lesson2.Task2.Sort main
+INFO: [4, 6, 9, 2, 1]
+дек. 21, 2022 9:52:53 AM lesson2.Task2.Sort main
+INFO: [4, 6, 2, 9, 1]
+дек. 21, 2022 9:52:53 AM lesson2.Task2.Sort main
+INFO: [4, 6, 2, 1, 9]
+дек. 21, 2022 9:52:53 AM lesson2.Task2.Sort main
+INFO: [4, 2, 6, 1, 9]
+дек. 21, 2022 9:52:53 AM lesson2.Task2.Sort main
+INFO: [4, 2, 1, 6, 9]
+дек. 21, 2022 9:52:53 AM lesson2.Task2.Sort main
+INFO: [2, 4, 1, 6, 9]
+дек. 21, 2022 9:52:53 AM lesson2.Task2.Sort main
+INFO: [2, 1, 4, 6, 9]
+дек. 21, 2022 9:52:53 AM lesson2.Task2.Sort main
+INFO: [1, 2, 4, 6, 9]
