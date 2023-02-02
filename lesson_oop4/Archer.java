@@ -24,7 +24,9 @@ public class Archer<E extends Protect> extends Warrior{
     }
 
 
-    public int PoinOfProtect(){
+
+    @Override
+    public int PoinOfProtect() {
         return protect.getPointOfAntiDamage();
     }
 

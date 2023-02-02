@@ -1,11 +1,13 @@
 package lesson_oop4;
 
+import lesson_oop4.Shield.Protect;
 import lesson_oop4.Weapons.Weaponable;
 
 public abstract class Warrior {
     private String name;
     private int healthPoint;
     private Weaponable weapon;
+    private Protect protect;
 
 
     
@@ -36,6 +38,11 @@ public abstract class Warrior {
         this.weapon = weapon;
     }
 
+
+
+    public int PoinOfProtect(){
+        return protect.getPointOfAntiDamage();
+    }
    
     @Override
     public String toString() {

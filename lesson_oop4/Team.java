@@ -32,22 +32,13 @@ public class Team <E extends Warrior>implements Iterable<E>{
         return String.format("Max shot is %d",maxRange);
     }
 
-    public String minShieldInTeam(){
+    public String minShieldinTeam(){
         int minShield = 0;
-        for (E item : team) {
-            if(item instanceof Archer) {
-                minShield = ((Archer)item).PoinOfProtect();
-                if(((Archer)item).PoinOfProtect() < minShield) minShield = ((Archer)item).PoinOfProtect();
-            }
-            else
-            if (item instanceof Swordman){
-                minShield = ((Swordman)item).PoinOfProtect();
-                if(((Swordman)item).PoinOfProtect() < minShield) minShield = ((Swordman)item).PoinOfProtect();
-            }
-        
+        for(E item:team){
+            minShield = item.PoinOfProtect();
+            if(item.PoinOfProtect()< minShield)minShield = item.PoinOfProtect();
         }
         return String.format("Min shield is %d\n",minShield);
-         
-}
+    }
 }
 

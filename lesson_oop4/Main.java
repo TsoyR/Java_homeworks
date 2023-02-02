@@ -34,8 +34,8 @@ public class Main {
     }
     System.out.println(team2.maxTeamRange());
 
-    System.out.print(team1.minShieldInTeam());
-    System.out.print(team2.minShieldInTeam());
+    System.out.print(team1.minShieldinTeam());
+    System.out.print(team2.minShieldinTeam());
    
 
    

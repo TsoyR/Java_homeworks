@@ -16,17 +16,17 @@ public class Swordman<E extends Protect>extends Warrior {
     
     }
 
-    public int PoinOfProtect(){
-        return protect.getPointOfAntiDamage();
-    }
-  
+
 
     @Override
     public String toString() {
         return "Swordman " + super.toString() + protect;
     }
 
-
+    @Override
+    public int PoinOfProtect() {
+        return protect.getPointOfAntiDamage();
+    }
 
 
     
